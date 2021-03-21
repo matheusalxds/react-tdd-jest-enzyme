@@ -1,5 +1,3 @@
-import '../../config/enzyme'
-
 import { shallow } from 'enzyme'
 import React from 'react'
 
