@@ -3,6 +3,7 @@ import '../../config/enzyme'
 import { shallow } from 'enzyme'
 import React from 'react'
 
+import { findByAttr } from '../../text/utils/findByTestAtt'
 import Counter from './Counter'
 
 const makeSut = () => {
@@ -11,8 +12,6 @@ const makeSut = () => {
     wrapper
   }
 }
-
-const findByAttr = (wrapper, attr) => wrapper.find(`[data-test='${attr}']`)
 
 describe('Counter', () => {
   test('should render Main component', async () => {
