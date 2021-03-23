@@ -1,8 +1,8 @@
 import { shallow } from 'enzyme'
 import React from 'react'
 
-import { findByAttr } from '../../text/utils/findByTestAtt'
-import { Congrats } from './Congrats'
+import { findByAttr } from '../../../text/utils/findByTestAtt'
+import { Congrats } from '../Congrats'
 
 const makeDefaultProps = () => ({
   message: 'any_message',
