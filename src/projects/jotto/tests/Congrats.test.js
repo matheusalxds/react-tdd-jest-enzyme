@@ -32,7 +32,7 @@ describe('Congrats component', () => {
   })
 
   test('should render no-empty congrats message when success props is true', async () => {
-    const { wrapper } = makeSut({ success: true })
+    const { wrapper } = makeSut({ success: true, message: 'any_message' })
     const sut = findByAttr(wrapper, 'congrats-message')
     expect(sut.text()).toBeTruthy()
   })

@@ -4,7 +4,7 @@ import React from 'react'
 import { testAttr } from '../../utils/add-test-att'
 
 export const GuessedWords = props => {
-  const { guessedWords, guessedWordsRows } = props
+  const { guessedWords } = props
   let contents
 
   if (guessedWords.length === 0) {
